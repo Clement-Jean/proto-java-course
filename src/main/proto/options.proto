@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package example.options;
+
+option java_package = "com.example.options";
+option java_multiple_files = true;
+
+message AnotherDummy {
+  uint32 id = 1;
+}
