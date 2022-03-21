@@ -14,7 +14,7 @@ public class MapsMain {
         Maps.MapExample message = Maps.MapExample.newBuilder()
                 .putIds("myid", newIdWrapper(42))
                 .putIds("myid2", newIdWrapper(43))
-                .putAllIds(new HashMap<>() {{
+                .putAllIds(new HashMap<String, Maps.IdWrapper>() {{
                     put("myid3", newIdWrapper(44));
                     put("myid4", newIdWrapper(45));
                 }})
