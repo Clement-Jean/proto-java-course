@@ -2,7 +2,7 @@ package maps;
 
 import example.maps.Maps;
 
-import java.util.Map;
+import java.util.HashMap;
 
 public class MapsMain {
 
@@ -14,10 +14,10 @@ public class MapsMain {
         Maps.MapExample message = Maps.MapExample.newBuilder()
                 .putIds("myid", newIdWrapper(42))
                 .putIds("myid2", newIdWrapper(43))
-                .putAllIds(Map.of(
-                        "myid3", newIdWrapper(44),
-                        "myid4", newIdWrapper(45)
-                ))
+                .putAllIds(new HashMap<>() {{
+                    put("myid3", newIdWrapper(44));
+                    put("myid4", newIdWrapper(45));
+                }})
                 .build();
 
         System.out.println(message);
