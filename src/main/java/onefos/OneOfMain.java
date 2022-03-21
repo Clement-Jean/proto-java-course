@@ -21,7 +21,7 @@ public class OneOfMain {
         System.out.println("hasId: " + message2.hasId());
         System.out.println(message2);
 
-        Oneofs.Result message3 = Oneofs.Result.newBuilder(message)
+        Oneofs.Result message3 = Oneofs.Result.newBuilder()
                 .setId(42)
                 .setMessage("a message")
                 .build();
