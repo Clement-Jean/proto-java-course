@@ -1,4 +1,4 @@
-package onefos;
+package oneofs;
 
 import example.oneofs.Oneofs;
 
