@@ -14,4 +14,4 @@ gradle io
 gradle json
 ```
 
-same applies for `./gradlew`
+same applies for `./gradlew` or `./gradlew.bat`
