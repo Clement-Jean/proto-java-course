@@ -1,7 +1,6 @@
 package simple;
 
 import example.simple.SimpleOuterClass;
-
 import java.util.Arrays;
 
 public class SimpleMain {
