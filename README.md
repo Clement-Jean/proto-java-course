@@ -7,13 +7,13 @@
 ## Alternative Run
 
 ```
-./gradlew simple
-./gradlew complex
-./gradlew enums
-./gradlew maps
-./gradlew oneofs
-./gradlew io
-./gradlew json
+gradle simple
+gradle complex
+gradle enums
+gradle maps
+gradle oneofs
+gradle io
+gradle json
 ```
 
 same applies for `./gradlew` or `./gradlew.bat`
