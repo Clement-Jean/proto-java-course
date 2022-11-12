@@ -12,7 +12,7 @@ repositories {
 }
 
 ext {
-    protoVersion = "3.21.4"
+    protoVersion = "3.21.9"
 }
 
 protobuf {
